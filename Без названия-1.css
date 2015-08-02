@@ -1,0 +1,41 @@
+/* Используемые цвета:
+
+#777777
+#ffffff
+#fffebc
+#b2fdd0
+#ffbaba
+
+*/
+
+.formula {
+    margin: 10px;
+    width: 500px;
+    border-collapse: collapse;
+    display:table;
+    sborder:1px solid #777777;
+}
+
+.formula p {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    display:table-caption;
+    caption-side:bottom;
+}
+.formula ul{
+    display:table-row;
+    text-align:center;
+    }
+.formula li{
+    display:table-cell;
+    border:1px solid #777777;
+    width:125px;
+    vertical-align:middle;
+    }
+header{
+    display: table-header-group;
+    }
+.content{
+    display:table-row-group;
+    }
